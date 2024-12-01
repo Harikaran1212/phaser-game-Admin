@@ -1,3 +1,3 @@
-const BACKEND_URL = process.env.REACT_APP_BACKEND_URL || 'https://phaser-game-admin.onrender.com';
+const BACKEND_URL = process.env.REACT_APP_BACKEND_URL || 'http://localhost:5000';
 
 export { BACKEND_URL };
