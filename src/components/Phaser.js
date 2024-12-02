@@ -28,7 +28,7 @@ export default class GameScene extends Phaser.Scene {
         this.ball.setBounce(1, 1);
         
         // Set initial velocity with consistent speed
-        this.initialSpeed = 400;
+        this.initialSpeed = 700;
         const randomAngle = Phaser.Math.FloatBetween(0, Math.PI * 2);
         const velocityX = Math.cos(randomAngle) * this.initialSpeed;
         const velocityY = Math.sin(randomAngle) * this.initialSpeed;
